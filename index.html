@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lange="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Portfolio - Mohd Mohsin Khan</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/920cfd0fca.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#internship">Internships</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>  
+                </nav>
+                <div class="header-text">
+                    <p>AI/ML Enthusiast</p>
+                    <h1>Hi, I'm <span>Mohd Mohsin</span> <br>Khan from India</h1>
+                </div>
+            </div>
+        </div>
+        <!-----------------about---------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">
+                            About Me
+                        </h1>
+                        <p>
+                            Hi, I'm Mohd Mohsin Khan a student persuing B.Tech in CSE specialization in Artificial Intelligence and Machine Learning.
+                            Solving problems creatively is what I do.  I am an AI ML enthusiast, looking around for things. I have learned the importance of applying classical strategies
+                             to modern-day projects. I am an intermediate coder in python. Knows the basics of C++ and Java and currently trying my hands 
+                             in NodeJS. I have done some basic python projects in my school life using some of the most populous libraries used - Tkinter, 
+                             pandas, NumPy, and many more. <br>Being an engineering student I also like to write. I never knew that I could write, but I wasn't 
+                             even sure how to go about it. My first encounter with writing was when I was in class 11th and caught red-handed by my teacher 
+                             and when I joined college, I started trying for content writing internships. Now, I am a published writer, with my 
+                             book published "Who am I?" and I am a part of at least 20 anthologies. Currently, I am compiling an anthology too, 
+                             with almost 50-60 co-authors
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>AI/ ML enthusiast</span><br> Learning and Building Models</li>
+                                <li><span>Python Developer</span><br> Building Projects using python libraries</li>
+                                <li><span>More Languages like</span><br> C, C++, Java, R, NodeJS, Prolog</li>
+                                <li><span>Database</span><br> MySQL</li>
+                                <li><span>Operating System</span><br>  Windows-9X, XP, Windows-10, Windows-11</li>
+                                <li><span>Content Writing</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2024</span><br>B.Tech in CSE specialization in AI ML<br> Vellore Institute of Technology, Bhopal<br> 8.33 (Current CGPA)</li>
+                                <li><span>2020</span><br>Sr. Secondary School Certificate<br>Lucknow Public School, Lucknow <br> 85%</li>
+                                <li><span>2018</span><br>Sr. School Certificate<br>Lucknow Public School, Lucknow <br>92%</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Content Team Lead</span><br> Codecademy<br> December, 2021 - present</li>
+                                <li><span>Treasurer and Head of Documentation</span><br> SEDS Nebula <br> April, 2022 - present</li>
+                                <li><span>Content Team Member</span><br> Codecademy <br> September, 2020 - November, 2021</li>
+                                <li><span>Project Team Core Member</span><br> SEDS Nebula <br> February, 2021 - April, 2022</li>
+                                <li><span>Sr School Captain</span><br> Lucknow Public School <br> April, 2018 - April, 2019</li>
+                                <li><span>Jr Head Boy</span><br> Lucknow Public School <br> April, 2015 - April, 2016</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------projects------------------ -->
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">
+                    Projects Done
+                </h1>
+                <div class="projectslist">
+                    <div>
+                        <i class="fa-solid fa-photo-film"></i>
+                        <h2>
+                            PicZap
+                        </h2>
+                        <p>
+                            It is a software used to add and remove watermark; also has a simple functions as cropping, resizing and resolutions
+                        </p>
+                        <a href="https://github.com/mohdmohsin123/PicZap">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>
+                            Symbiote
+                        </h2>
+                        <p>
+                            It is model which asks the users about the details of the object and the model take the surveillance camera videos as the dataset at use to find the lost things.
+                        </p>
+                        <a href="https://github.com/mohdmohsin123/Symbiote">Learn More</a>
+                    </div>
+
+                </div>
+                <a href="https://github.com/mohdmohsin123" class="btn">See More</a>
+            </div>
+        </div>
+        <!-- Internships -->
+        <div id="internship">
+            <div class="container">
+                <h1 class="sub-title">
+                    Internships
+                </h1>
+                <div class="internshiplist">
+                    <div class="work">
+                        <img src="images/tech.png">
+                        <div class="layer">
+                            <h3>Tech Internships</h3>
+                            <p>
+                                1- Artificial Intelligence Intern at Technook (September, 2022)<br>
+                                2- Contributor at GWoC (August, 2021-December,2021)<br>
+                                3- Contributor at DevIncept(July, 2021- August, 2021)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/nontech.jpg">
+                        <div class="layer">
+                            <h3>Non-Tech Internships</h3>
+                            <p>
+                                1- Digital Marketing Intern at GWoC (December, 2021-March 2022)<br>
+                                2- Social Curator Intern at DevIncept (July 2021-August, 2021)<br>
+                                3- General Manager at The Entrepreneurship Network (July, 2021-October, 2021)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/ca.png">
+                        <div class="layer">
+                            
+                            <h3>Campus Ambassador</h3>
+                            <p>
+                                1- Lyriclious (September, 2021-October, 2021)<br>
+                                2- YHills (July, 2021-December, 2021)<br>
+                                3- Great Learning (July, 2021-present)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ------------Contact------------ -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>786mohsin0khan@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+91 6388515249</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/mohd-mohsin-khan-1a3167202/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/mohdmohsin123"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/_archaic_rhymist/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/archaic_rhymist"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://medium.com/@mohsin-khan2020"><i class="fa-brands fa-medium"></i></a>
+                        </div>
+                        <a href="images/Resume- Mohsin.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="EMail" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">Copyright © Mohsin. <i class="fa-solid fa-heart"></i></div>
+        </div>
+
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right="0";
+            }
+            function closemenu(){
+                sidemeu.style.right="-200px";
+            }
+        </script>
+        
+          
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyhqLrskkEY4h0m0Fbf3nMlbIU9Kbsr60ip7PxgDpdw7NZVa5tNnt-nMHujxQxJyN1R0g/exec'
+            const form = document.forms['submit-to-google-sheet']
+
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Thank you! Will get back to you soon!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
